@@ -32,16 +32,19 @@ To Add files to git
 ```
 git add .
 ```
-OR
+OR  
 '''
 git  add <file_name>
 '''
 > Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
+
 To Check the git status
+
 '''
 git status
 '''
+
 To check all version maintained by git
 '''
 git log
@@ -50,4 +53,41 @@ git log
 To create version/commit all changes by git
 '''
 git commit -m message
+'''
+
+To send version/changes to github
+'''
+git push origin main
+'''
+
+To check remote url
+'''
+git remote -v
+'''
+
+
+BUILD DOCKER IMAGE
+'''
+docker build -t <image_name>:<tagname>
+'''
+> Note: image name for docker must be lowercase
+
+To list docker image
+'''
+docker image
+'''
+
+Run docker image
+'''
+docker run -p 5000:5000 -e PORT=5000 <image ID>
+'''
+
+To Check running containers in docker
+'''
+docker ps
+'''
+
+to stop docker container
+'''
+docker stop <container_id>
 '''
