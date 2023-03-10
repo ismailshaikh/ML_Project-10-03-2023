@@ -1,0 +1,34 @@
+07/03/2023
+End to End ML Project  Income Prediction
+
+1. Set up Project With Github
+2. Data Ingestion
+3. Data Transformation
+4. Model Trainer
+5. Model Deployment
+
+CI/CD Pipelines - Github Actions Deployment - AWS
+- Docker
+- Logger
+- Exceptions
+- VENV
+- Artifacts
+- Continuous Integration & Continuous Deployment
+
+
+-----------------------------------------------------
+STEP=1
+-----------------------------------------------------
+1. Set up the Github { Create Repository }
+ a) Create New Environment (vs-code) -> {conda create -p <environment-name> python==3.8 -y}
+ b) create readme file & Clone Github Repository
+ c) configure git global config in vs cmd before git push
+ d) setup.py
+ e) requirements.txt
+ f) Created Source folder 
+ g) Build the Package
+-----------------------------------
+we can Automate above step with help of Template.py
+-------------------------------------------------------
+STEP=2
+-------------------------------------------------------
